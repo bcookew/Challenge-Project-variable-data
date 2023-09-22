@@ -171,7 +171,7 @@ do
                             // #5 update "searching" message to show countdown 
                             foreach (string icon in searchingIcons)
                             {
-                                Console.Write($"\rsearching.. {characteristic} {icon} {j}");
+                                Console.Write($"\rsearching our dog {ourAnimals[i,3]} for {characteristic} {icon} {j}");
                                 Thread.Sleep(250);
                             }
 
@@ -195,7 +195,7 @@ do
                         {
                             Console.WriteLine($"\t- {term}");
                         }
-                        Console.WriteLine($"{ourAnimals[i,3]} ({ourAnimals[i, 0]})");
+                        Console.WriteLine($"\n{ourAnimals[i,3]} ({ourAnimals[i, 0]})");
                         Console.WriteLine(ourAnimals[i, 4]);
                         Console.WriteLine(ourAnimals[i, 5] + "\n");
                     }
